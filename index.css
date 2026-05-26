@@ -1,5 +1,172 @@
 * {
-		padding: 0;
-		margin: 0;
-		box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR SECTION STARTS HERE*/
+	#navbar-wrap {
+	    background: #FFFFFF;
+	    border-bottom: 1px solid #E5E7EB;
 	}
+
+	#navbar-wrap .navbar {
+	    padding-top: 16px;
+	    padding-bottom: 16px;
+	    padding-left: 48px;
+	    padding-right: 48px;
+	    background: transparent !important;
+	}
+
+	.navbar-brand {
+	    font-family: Inter, sans-serif;
+	    font-weight: 800;
+	    font-size: 22px;
+	    line-height: 30px;
+	    letter-spacing: -0.55px;
+	    color: #191C1E !important;
+	    text-decoration: none;
+	}
+
+	#brand-ph {
+	    color: #0051D5;
+	}
+
+	#home-link {
+	    font-family: 'Hanken Grotesk', sans-serif;
+	    font-weight: 700;
+	    font-size: 14px;
+	    line-height: 20px;
+	    letter-spacing: 0.7px;
+	    color: #0051D5 !important;
+	}
+
+	#mission-link,
+	#categories-link,
+	#library-link {
+	    font-family: 'Hanken Grotesk', sans-serif;
+	    font-weight: 600;
+	    font-size: 14px;
+	    line-height: 20px;
+	    letter-spacing: 0.7px;
+	    color: rgba(69, 70, 77, 0.7) !important;
+	}
+
+	#mentor-link {
+	    font-family: 'Hanken Grotesk', sans-serif;
+	    font-weight: 700;
+	    font-size: 14px;
+	    line-height: 24px;
+	    color: #0051D5 !important;
+	    text-decoration: none;
+	}
+
+	#login-link {
+	    font-family: 'Hanken Grotesk', sans-serif;
+	    font-weight: 700;
+	    font-size: 14px;
+	    line-height: 24px;
+	    color: #FFFFFF !important;
+	    background: #0051D5;
+	    border-radius: 6px;
+	    padding: 6px 16px !important;
+	    margin-left: 8px;
+	    transition: background 0.15s ease;
+	}
+
+	#login-link:hover {
+	    background: #003DAA;
+	    color: #FFFFFF !important;
+	}
+/*NAVBAR SECTION ENDS HERE*/
+
+/*HERO SECTION STARTS HERE*/
+	#hero {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: #FFFFFF;
+}
+ 
+#hero-eyebrow {
+	font-family: Hanken Grotesk;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #0051D5;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+ 
+#hero-eyebrow .material-symbols-outlined {
+	font-size: 16px;
+}
+ 
+#hero-heading {
+	font-family: Inter;
+	font-weight: 800;
+	font-size: 44px;
+	line-height: 52px;
+	letter-spacing: -1.5px;
+	color: #191C1E;
+	margin-bottom: 24px;
+}
+ 
+#hero-highlight {
+	color: #0051D5;
+}
+ 
+#hero-subtext {
+	font-family: Hanken Grotesk;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: 0px;
+	color: #5A5C66;
+	margin-bottom: 36px;
+}
+ 
+#hero-btn-primary {
+	font-family: Hanken Grotesk;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	background: #191C1E;
+	border-radius: 6px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+ 
+#hero-btn-secondary {
+	font-family: Hanken Grotesk;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #191C1E;
+	border: 1.5px solid #D1D5DB;
+	border-radius: 6px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+ 
+#hero-img-wrap {
+	border-radius: 16px;
+	overflow: hidden;
+	border: 1px solid #E5E7EB;
+}
+ 
+#hero-photo {
+	width: 100%;
+	height: 380px;
+	object-fit: cover;
+	display: block;
+}
+/*HERO SECTION ENDS HERE*/
