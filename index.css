@@ -170,3 +170,300 @@
 	display: block;
 }
 /*HERO SECTION ENDS HERE*/
+
+/*HOME SECTION STARTS HERE*/
+	#insights {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background: #F9FAFB;
+	}
+ 
+	#insights-heading {
+		font-family: Inter, sans-serif;
+		font-weight: 800;
+		font-size: 32px;
+		line-height: 40px;
+		letter-spacing: -0.8px;
+		color: #191C1E;
+		margin-bottom: 8px;
+	}
+ 
+	#insights-subtext {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		letter-spacing: 0px;
+		color: #5A5C66;
+		margin-bottom: 0px;
+	}
+ 
+	#insights-link {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 20px;
+		color: #0051D5;
+	}
+ 
+	#insights-link:hover {
+		color: #003DAA;
+	}
+ 
+	.card {
+		border: 1px solid #E5E7EB;
+		border-radius: 12px;
+		background: #FFFFFF;
+	}
+ 
+	.card-body {
+		padding-top: 24px;
+		padding-bottom: 24px;
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+ 
+	.card-category {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 700;
+		font-size: 11px;
+		line-height: 16px;
+		letter-spacing: 1.5px;
+		text-transform: uppercase;
+		color: #0051D5;
+		margin-bottom: 12px;
+	}
+ 
+	.card-title {
+		font-family: Inter, sans-serif;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 26px;
+		letter-spacing: -0.3px;
+		color: #191C1E;
+		margin-bottom: 12px;
+	}
+ 
+	.card-text {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		letter-spacing: 0px;
+		color: #5A5C66;
+		margin-bottom: 24px;
+	}
+ 
+	.card-footer-row {
+		border-top: 1px solid #E5E7EB;
+		padding-top: 16px;
+	}
+ 
+	.card-icon {
+		font-size: 18px;
+		color: #5A5C66;
+	}
+ 
+	.card-read {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 18px;
+		color: #5A5C66;
+	}
+/*HOME SECTION ENDS HERE*/
+/*CATEGORIES SECTION STARTS HERE*/
+	#categories-section {
+		background: #FFFFFF;
+	}
+
+	#categories {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	#categories-heading {
+		font-family: Inter, sans-serif;
+		font-weight: 800;
+		font-size: 32px;
+		line-height: 40px;
+		letter-spacing: -0.8px;
+		color: #191C1E;
+		margin-bottom: 8px;
+	}
+
+	#categories-subtext {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		color: #5A5C66;
+		margin-bottom: 0;
+	}
+/*CATEGORIES SECTION ENDS HERE*/
+
+/*ABOUT SECTION STARTS HERE*/
+	#about {
+		background: #F9FAFB;
+	}
+
+	#about-wrap {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.section-eyebrow {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 16px;
+		letter-spacing: 1.2px;
+		text-transform: uppercase;
+		color: #0051D5;
+		margin-bottom: 16px;
+	}
+
+	.section-heading {
+		font-family: Inter, sans-serif;
+		font-weight: 800;
+		font-size: 32px;
+		line-height: 40px;
+		letter-spacing: -0.8px;
+		color: #191C1E;
+		margin-bottom: 16px;
+	}
+
+	.section-subtext {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 26px;
+		color: #5A5C66;
+		margin-bottom: 16px;
+	}
+
+	.stat-card {
+		background: #FFFFFF;
+		border: 1px solid #E5E7EB;
+		border-radius: 12px;
+		padding: 24px;
+		text-align: center;
+	}
+
+	.stat-number {
+		font-family: Inter, sans-serif;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 44px;
+		letter-spacing: -1px;
+		color: #0051D5;
+		margin-bottom: 4px;
+	}
+
+	.stat-label {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 18px;
+		color: #5A5C66;
+		margin-bottom: 0;
+	}
+/*ABOUT SECTION ENDS HERE*/
+
+/*MISSION SECTION STARTS HERE*/
+	#mission {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background: #FFFFFF;
+	}
+
+	.mission-card {
+		background: #F9FAFB;
+		border: 1px solid #E5E7EB;
+		border-radius: 12px;
+		padding: 28px 24px;
+		height: 100%;
+	}
+
+	.mission-icon {
+		font-size: 32px;
+		color: #0051D5;
+		margin-bottom: 16px;
+		display: block;
+	}
+
+	.mission-title {
+		font-family: Inter, sans-serif;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 26px;
+		letter-spacing: -0.3px;
+		color: #191C1E;
+		margin-bottom: 10px;
+	}
+
+	.mission-text {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		color: #5A5C66;
+		margin-bottom: 0;
+	}
+/*MISSION SECTION ENDS HERE*/
+
+/*CONTACT SECTION STARTS HERE*/
+	#contact {
+		background: #191C1E;
+	}
+
+	#contact-wrap {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	#contact .section-eyebrow {
+		color: #93C5FD;
+	}
+
+	#contact .section-heading {
+		color: #FFFFFF;
+	}
+
+	#contact .section-subtext {
+		color: rgba(255, 255, 255, 0.65);
+	}
+
+	.contact-card {
+		background: rgba(255, 255, 255, 0.06);
+		border: 1px solid rgba(255, 255, 255, 0.12);
+		border-radius: 12px;
+		padding: 28px 24px;
+		text-align: center;
+	}
+
+	.contact-icon {
+		font-size: 32px;
+		color: #60A5FA;
+		margin-bottom: 12px;
+		display: block;
+	}
+
+	.contact-title {
+		font-family: Inter, sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 24px;
+		color: #FFFFFF;
+		margin-bottom: 8px;
+	}
+
+	.contact-text {
+		font-family: 'Hanken Grotesk', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		color: rgba(255, 255, 255, 0.6);
+		margin-bottom: 0;
+	}
+/*CONTACT SECTION ENDS HERE*/

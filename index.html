@@ -5,10 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./index.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Hanken+Grotesk:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Hanken+Grotesk:wght@600;700;800&display=swap" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 	<title>App Building 2</title>
-
 </head>
 <body>
 
@@ -50,11 +49,14 @@
 	</section>
 <!-- NAVBAR ENDS HERE -->
 
-<!-- HERO SECTION STARTS HERE -->
-	<div class="container-fluid" id="hero">
+<!-- HOME SECTION STARTS HERE -->
+<section id="home">
+
+	<!-- HERO / INTRODUCTION SECTION STARTS HERE -->
+	<div class="container-fluid" id="introduction">
 		<div class="container">
 			<div class="row align-items-center g-5">
- 
+
 				<div class="col-12 col-lg-6" id="hero-left">
 					<p id="hero-eyebrow">
 						<span class="material-symbols-outlined">verified</span>
@@ -70,15 +72,253 @@
 				<div class="col-12 col-lg-6" id="hero-right">
 					<div id="hero-img-wrap">
 						<img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80" id="hero-photo" alt="Modern office">
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-<!-- HERO SECTION ENDS HERE -->
+	<!-- HERO / INTRODUCTION SECTION ENDS HERE -->
 
-<!-- HOME SECTION STARTS HERE -->
-	
+	<!-- FEATURED SECTION STARTS HERE -->
+	<div class="container-fluid" id="featured">
+		<div class="container">
+			<div class="row align-items-center mb-4" id="insights-header">
+				<div class="col-12 col-lg-8">
+					<h2 id="insights-heading">Recognized. Accredited. Trusted.</h2>
+					<p id="insights-subtext">TechResource PH has earned the confidence of leading academic institutions, government agencies, and global technology firms — making us the Philippines' most trusted platform for IT professional development.</p>
+				</div>
+				<div class="col-12 col-lg-4 text-lg-end">
+					<a href="#" class="text-decoration-none" id="insights-link">View All Recognition →</a>
+				</div>
+			</div>
+
+			<div class="row g-4">
+				<div class="col-12 col-md-4">
+					<div class="card h-100" id="card1">
+						<div class="card-body d-flex flex-column">
+							<p class="card-category">CHED Accredited</p>
+							<h5 class="card-title">Commission on Higher Education Partner Institution</h5>
+							<p class="card-text">Formally recognized by CHED as a supplementary learning provider, our curriculum meets the standards required for academic credit equivalency across Philippine universities.</p>
+							<div class="card-footer-row mt-auto d-flex align-items-center gap-2">
+								<span class="material-symbols-outlined card-icon">verified</span>
+								<p class="card-read mb-0">Since 2019</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<div class="card h-100" id="card2">
+						<div class="card-body d-flex flex-column">
+							<p class="card-category">Industry Award</p>
+							<h5 class="card-title">Best Tech Learning Platform — Philippine Tech Summit 2023</h5>
+							<p class="card-text">Awarded by a panel of industry leaders and academic experts at the nation's largest annual technology conference, recognizing excellence in professional IT education.</p>
+							<div class="card-footer-row mt-auto d-flex align-items-center gap-2">
+								<span class="material-symbols-outlined card-icon">emoji_events</span>
+								<p class="card-read mb-0">2023 Awardee</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<div class="card h-100" id="card3">
+						<div class="card-body d-flex flex-column">
+							<p class="card-category">Global Partnership</p>
+							<h5 class="card-title">Certified Training Partner of AWS, Google, and Microsoft</h5>
+							<p class="card-text">Our programs are co-developed with and endorsed by the world's top three cloud providers, ensuring our learners receive globally recognized certifications upon completion.</p>
+							<div class="card-footer-row mt-auto d-flex align-items-center gap-2">
+								<span class="material-symbols-outlined card-icon">public</span>
+								<p class="card-read mb-0">3 Global Partners</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FEATURED SECTION ENDS HERE -->
+
+</section>
 <!-- HOME SECTION ENDS HERE -->
+
+<!-- CATEGORIES SECTION STARTS HERE -->
+<section id="categories-section">
+	<div class="container-fluid" id="categories">
+		<div class="container">
+			<div class="row mb-4">
+				<div class="col-12 col-lg-8">
+					<h2 id="categories-heading">Explore Disciplines</h2>
+					<p id="categories-subtext">Browse our curated learning tracks designed by industry experts and aligned with the latest Philippine IT industry demands.</p>
+				</div>
+			</div>
+			<div class="row g-4" id="resources">
+				<div class="col-12 col-md-4">
+					<div class="card h-100">
+						<div class="card-body d-flex flex-column">
+							<p class="card-category">Cloud Computing</p>
+							<h5 class="card-title">AWS, Azure & Google Cloud Fundamentals</h5>
+							<p class="card-text">Master multi-cloud environments with hands-on labs and real-world deployment scenarios tailored for Filipino IT professionals.</p>
+							<div class="card-footer-row mt-auto d-flex align-items-center gap-2">
+								<span class="material-symbols-outlined card-icon">cloud</span>
+								<p class="card-read mb-0">42 Resources</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="card h-100">
+						<div class="card-body d-flex flex-column">
+							<p class="card-category">Cybersecurity</p>
+							<h5 class="card-title">Ethical Hacking & Security Operations</h5>
+							<p class="card-text">Develop offensive and defensive security skills aligned with global certifications including CEH, CISSP, and CompTIA Security+.</p>
+							<div class="card-footer-row mt-auto d-flex align-items-center gap-2">
+								<span class="material-symbols-outlined card-icon">security</span>
+								<p class="card-read mb-0">38 Resources</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="card h-100">
+						<div class="card-body d-flex flex-column">
+							<p class="card-category">Data Science</p>
+							<h5 class="card-title">Machine Learning & Analytics Engineering</h5>
+							<p class="card-text">From Python fundamentals to advanced ML pipelines — build the analytical skills that top Philippine BPOs and tech firms are actively hiring for.</p>
+							<div class="card-footer-row mt-auto d-flex align-items-center gap-2">
+								<span class="material-symbols-outlined card-icon">analytics</span>
+								<p class="card-read mb-0">55 Resources</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- CATEGORIES SECTION ENDS HERE -->
+
+<!-- ABOUT SECTION STARTS HERE -->
+<section id="about">
+	<div class="container-fluid" id="about-wrap">
+		<div class="container">
+			<div class="row align-items-center g-5">
+				<div class="col-12 col-lg-6">
+					<p class="section-eyebrow">About TechResource PH</p>
+					<h2 class="section-heading">Built for Filipino Tech Professionals, by Filipino Tech Leaders.</h2>
+					<p class="section-subtext">Founded in 2018, TechResource PH was born out of a vision to close the skills gap between Philippine IT graduates and the demands of a global technology economy. Our founding team — composed of former CIOs, senior engineers, and academic leaders — built a platform that doesn't just teach, but transforms careers.</p>
+					<p class="section-subtext">Today, we serve over 85,000 active learners across the archipelago, with alumni placed in top firms including Accenture, Globe Telecom, UnionBank, and international tech companies.</p>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="row g-3">
+						<div class="col-6">
+							<div class="stat-card">
+								<h3 class="stat-number">85K+</h3>
+								<p class="stat-label">Active Learners</p>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="stat-card">
+								<h3 class="stat-number">200+</h3>
+								<p class="stat-label">Expert Mentors</p>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="stat-card">
+								<h3 class="stat-number">150+</h3>
+								<p class="stat-label">Learning Modules</p>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="stat-card">
+								<h3 class="stat-number">98%</h3>
+								<p class="stat-label">Completion Rate</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- MISSION SECTION STARTS HERE -->
+	<div class="container-fluid" id="mission">
+		<div class="container">
+			<div class="row justify-content-center text-center mb-5">
+				<div class="col-12 col-lg-8">
+					<p class="section-eyebrow">Our Mission</p>
+					<h2 class="section-heading">Democratizing World-Class IT Education Across the Philippines.</h2>
+					<p class="section-subtext">We believe every Filipino — regardless of geography or background — deserves access to the same quality of technology education available in the world's most advanced economies.</p>
+				</div>
+			</div>
+			<div class="row g-4">
+				<div class="col-12 col-md-4">
+					<div class="mission-card">
+						<span class="material-symbols-outlined mission-icon">school</span>
+						<h5 class="mission-title">Academic Excellence</h5>
+						<p class="mission-text">Partnering with CHED-accredited institutions to ensure our curriculum meets the highest standards of academic rigor and industry relevance.</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="mission-card">
+						<span class="material-symbols-outlined mission-icon">handshake</span>
+						<h5 class="mission-title">Industry Alignment</h5>
+						<p class="mission-text">Collaborating directly with leading employers to design learning outcomes that translate immediately into workplace performance and career advancement.</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="mission-card">
+						<span class="material-symbols-outlined mission-icon">diversity_3</span>
+						<h5 class="mission-title">Inclusive Access</h5>
+						<p class="mission-text">Offering flexible learning formats — online, hybrid, and regional hubs — to ensure no Filipino professional is left behind in the digital economy.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- MISSION SECTION ENDS HERE -->
+
+</section>
+<!-- ABOUT SECTION ENDS HERE -->
+
+<!-- CONTACT SECTION STARTS HERE -->
+<section id="contact">
+	<div class="container-fluid" id="contact-wrap">
+		<div class="container">
+			<div class="row justify-content-center text-center mb-5">
+				<div class="col-12 col-lg-7">
+					<p class="section-eyebrow">Get in Touch</p>
+					<h2 class="section-heading">Ready to Advance Your IT Career?</h2>
+					<p class="section-subtext">Whether you're an individual learner, a corporate HR team, or an academic institution — we're here to help you chart the right path forward.</p>
+				</div>
+			</div>
+			<div class="row g-4 justify-content-center">
+				<div class="col-12 col-md-4">
+					<div class="contact-card">
+						<span class="material-symbols-outlined contact-icon">mail</span>
+						<h5 class="contact-title">Email Us</h5>
+						<p class="contact-text">hello@techresourceph.com</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="contact-card">
+						<span class="material-symbols-outlined contact-icon">location_on</span>
+						<h5 class="contact-title">Visit Us</h5>
+						<p class="contact-text">Bonifacio Global City, Taguig, Metro Manila, Philippines</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="contact-card">
+						<span class="material-symbols-outlined contact-icon">phone</span>
+						<h5 class="contact-title">Call Us</h5>
+						<p class="contact-text">(02) 8888-TECH | +63 917 000 1234</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- CONTACT SECTION ENDS HERE -->
 
 </body>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
